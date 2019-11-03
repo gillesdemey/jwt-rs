@@ -1,0 +1,13 @@
+[package]
+name = "jwt-rs"
+version = "0.1.0"
+authors = ["gillesdemey <gilles.de.mey@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+jsonwebtoken = "6"
+serde_derive = "1"
+serde = "1"
+uuid = "0.8.1"
